@@ -1,7 +1,8 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Replicate THIS!
+description: How many tutorials/analyses out there I can *actually* replicate? Let's drive progress with clear communication, open code, and shared data.
 
-url: https://long-haul.netlify.app
+
+url: https://kelsiwest.com/replicatethis
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
