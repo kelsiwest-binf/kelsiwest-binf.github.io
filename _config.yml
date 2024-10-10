@@ -22,10 +22,10 @@ paginate: 5
 navigation:
     - title: Home
       url: /index.html
-    - title: About
-      url: /about
-    - title: Contact
-      url: /contact
+    - title: About Me
+      url: https://kelsi-west.webflow.io/#aboutkelsiwest
+    - title: Contact Me
+      url: https://kelsi-west.webflow.io/#west-contact
 
 social:
     github: kelsiwest-binf
