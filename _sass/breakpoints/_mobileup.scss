@@ -29,12 +29,12 @@ body {
 // Text Selection Styling
 ::-moz-selection {
 	background: $primary-color;
-	color: white;
+	color: $secondary-color;
 }
 
 ::selection {
 	background: $primary-color;
-	color: white;
+	color: $secondary-color;
 }
 
 // Media Styling
@@ -419,7 +419,7 @@ FOOTER STYLING
 						height: 100%;
 
 						.outer-shape {
-							fill: $primary-color;
+							fill: $secondary-color;
 						}
 
 						.inner-shape {
@@ -432,7 +432,7 @@ FOOTER STYLING
 					a {
 						svg {
 							.outer-shape {
-								fill: darken($primary-color, 10%);
+								fill: darken($secondary-color, 10%);
 							}
 						}
 					}
