@@ -19,10 +19,10 @@ table {
 tr {
 
 	&:nth-child(even) {
-		background-color: lighten($gray, 30%);
+		background-color: $tertiary_color;
 
 		@media (prefers-color-scheme: dark) {
-			background-color: lighten($gray, 10%);
+			background-color: $tertiary-color;
 		}
 	}
 }
