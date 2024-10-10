@@ -10,7 +10,7 @@ table {
 	caption {
 		margin: 0 0 7px;
 		font-size: 0.75em;
-		color: $grey;
+		color: $gray;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
@@ -19,7 +19,7 @@ table {
 tr {
 
 	&:nth-child(even) {
-		background-color: lighten($grey, 30%);
+		background-color: lighten($gray, 30%);
 
 		@media (prefers-color-scheme: dark) {
 			background-color: lighten(gray, 10%);
