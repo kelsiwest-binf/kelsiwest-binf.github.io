@@ -253,7 +253,7 @@ POST STYLING
 
 	.meta {
 		text-align: center;
-		color: lighten(black, 50%);
+		color: lighten($black, 50%);
 		font-family: $sans-serif;
 		font-weight: 300;
 	}
@@ -484,7 +484,7 @@ POST LIST STYLING
 		}
 
 		.date {
-			color: lighten(black, 50%);
+			color: lighten($black, 50%);
 			font-family: $sans-serif;
 			font-weight: 300;
 			font-size: 0.8em;
@@ -511,11 +511,11 @@ DARK THEME STYLING
 	}
 
 	.postNav {
-		border-top: 1px solid lighten(tertiary-color, 10%);
-		border-bottom: 1px solid lighten(tertiary-color, 10%);
+		border-top: 1px solid lighten($tertiary-color, 10%);
+		border-bottom: 1px solid lighten($tertiary-color, 10%);
 	}
 
 	.footer .container {
-		border-top-color: lighten(gray, 10%);
+		border-top-color: lighten($tertiary-color, 10%);
 	}
 }
