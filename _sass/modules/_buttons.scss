@@ -8,7 +8,7 @@ BUTTON DEFAULTS
   position: relative;
   font-family: $sans-serif;
   text-decoration: none;
-  color: $white;
+  color: $secondary-color;
   font-size: 1em;
   line-height: 1.2em;
   font-weight: normal;
@@ -49,7 +49,7 @@ BUTTON DEFAULTS
  
   &-tertiary {
     @extend %btn;
-    background-color: $tertiary-color;
+    background-color: $secondary-color;
 
     &:hover {
       background-color: darken($tertiary-color, 10%);
@@ -62,12 +62,12 @@ BUTTON DEFAULTS
 .button__outline {  
   @extend %btn;
   background-color: transparent;
-  border: 3px solid $primary-color;
-  color: $primary-color;
+  border: 3px solid $secondary-color;
+  color: $secondary-color;
 
   &:hover {
     background-color: $primary-color;
-    color: $white;
+    color: $secondary-color;
   }
 }
 
