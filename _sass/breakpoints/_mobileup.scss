@@ -16,7 +16,7 @@ body {
 	font-family: $serif;
 	line-height: 1.75;
 	font-size: 112.5%; // 18px base font size
-	color: $charcoal;
+	color: $tertiary-color;
 	overflow-x: hidden;
 	margin: 0;
 
@@ -511,8 +511,8 @@ DARK THEME STYLING
 	}
 
 	.postNav {
-		border-top: 1px solid lighten(charcoal, 10%);
-		border-bottom: 1px solid lighten(charcoal, 10%);
+		border-top: 1px solid lighten(tertiary-color, 10%);
+		border-bottom: 1px solid lighten(tertiary-color, 10%);
 	}
 
 	.footer .container {
