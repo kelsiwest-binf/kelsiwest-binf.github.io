@@ -2,7 +2,7 @@ title: Replicate THIS!
 description: How many tutorials/analyses out there I can *actually* replicate? Let's drive progress with clear communication, open code, and shared data.
 
 
-url: https://kelsiwest.com/replicatethis
+url: https://kelsiwest-binf.github.io/
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
@@ -28,15 +28,12 @@ navigation:
       url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+    github: kelsiwest-binf
+    twitter: West_KelsiO
+    email: kelsi.west979@[google's mail service]
+    linkedin: kelsiwest-binf
 
-google_analytics: "UA-58263416-1"
+#oogle_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: brianmaierjr
+#disqus:
+    #shortname: brianmaierjr
