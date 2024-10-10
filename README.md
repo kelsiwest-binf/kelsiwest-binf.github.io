@@ -1,62 +1,35 @@
-![preview Long Haul](/preview.jpg)
+<header>
 
-Long Haul is a minimal jekyll theme built with SASS and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
+<!--
+ Replicate THIS!
+ Hi! 
+ I'm Kelsi West. I'm a DIY enthusiast and that applies to all parts of my life, including my career as a Bioinformatics Scientist. 
+ In my field, I find that communication and reproducibility is severely lacking. I want to help change this. 
+ So here is my process of going through tutorials I find, making notes, finding errors, and trying to successfully recapitulate code or tutorials that are out there in the wild. 
+ I deal with simple installations of software, to full-on analysis of complex datasets. 
 
-If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
+ Let's make everything reproducible. It starts with clear communication! 
 
-#### [View Demo](http://brianmaierjr.com/long-haul)
+-->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bd29f13b-3754-46d7-9a39-48db2e174b99/deploy-status)](https://app.netlify.com/sites/long-haul/deploys)
+# Replicate THIS!
 
-## Features
+ ---
+## Howdy! 
 
--   Minimal, Type Focused Design
--   Built with SASS
--   SVG Social Icons
--   Responsive Nav Menu
--   XML Feed for RSS Readers
--   Contact Form via Formspree
--   5 Post Loop with excerpt on Home Page
--   Previous / Next Post Navigation
--   Estimated Reading Time for posts
--   Stylish Drop Cap on posts
--   A Better Type Scale for all devices
--   Comments powered by Disqus
--   [Dark Mode support](https://github.com/brianmaierjr/long-haul/blob/master/preview-dark.png) via [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 
-## Setup
+ I'm Kelsi West. I'm a DIY enthusiast and that applies to all parts of my life, including my career as a Bioinformatics Scientist. 
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
-3. Clone it
-4. [Install Bundler](http://bundler.io/)
-5. Run `bundle install`
-6. Run Jekyll Serve and Watch command`bundle exec jekyll serve -w`
+ 
+ In my field, I find that communication and reproducibility is severely lacking. I want to help change this. 
 
-## Site Settings
+ 
+ So here is where I share my personal attempts of going through tutorials I find, making notes🗒️, fixing errors🤞🏻, and trying to successfully📈 recapitulate code or tutorials that are out there in the wild. 
 
-The main settings can be found inside the `_config.yml` file:
+ 
+ I deal with simple installations of software to full-on analysis of complex biological datasets. 
 
--   **title:** title of your site
--   **description:** description of your site
--   **url:** your url
--   **paginate:** the amount of posts displayed on homepage
--   **navigation:** these are the links in the main site navigation
--   **social** diverse social media usernames (optional)
--   **google_analytics** Google Analytics key (optional)
+ ### Let's make everything reproducbile. It starts with clear communication! 
 
-### Header Option
+---
 
-If you'd like your header to be larger then you can use the option below in you `config.yml` to make it take up half of the vertical space on screens 800px wide and up. _Preview image below._
-
--   **header:** large
-
-![preview Long Haul](/preview-large.png)
-
-## To use on GitHub Pages
-
-To use latest Jekyll and Jekyll Sass Converter on GitHub Pages, <a href="https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/">you can now deploy to a GitHub Pages site using GitHub Actions.</a>
-
-## License
-
-This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
