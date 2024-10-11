@@ -1,6 +1,8 @@
 ---
-Title: "UPDATE - HOW WELL WILL LINKEDIN AIHAWK WORK"
-Date: 2024-09-30
+layout: post
+title: "UPDATE - How Well Will LinkedIn AIHawk Work?"
+date: 2024-09-30
+description: Let's try out an AI developed by feder-cr to auto-fill and apply to jobs in LinkedIn!
 ---
 
 
