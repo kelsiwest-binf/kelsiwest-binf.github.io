@@ -5,7 +5,7 @@ date:   2024-09-16
 description: Let's try out an AI developed by feder-cr to auto-fill and apply to jobs in LinkedIn!
 ---
 
-<p class="intro"><span class="dropcap">HOWDY!</span> My friend and AI Engineer, Alex Jacobs, forwarded me this repo that uses AI to auto-fill and apply to jobs in LinkedIn. </p>
+<p class="intro"><span class="dropcap">M</span>y friend and AI Engineer, Alex Jacobs, forwarded me this repo that uses AI to auto-fill and apply to jobs in LinkedIn. </p>
 
 ---
 #### LinkedIn AIHawk

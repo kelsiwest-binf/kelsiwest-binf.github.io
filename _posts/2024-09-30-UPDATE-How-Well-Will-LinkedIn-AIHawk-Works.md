@@ -5,11 +5,10 @@ date: 2024-09-30
 description: After a few attempts, here's the update on my thoughts of LinkedIn AIHawk.
 ---
 
-<p class="intro"><span class="dropcap">HOWDY!</span> As with any good experiment, I've tried AIHawk several different times to see differences and adjust parameters to narrow the positions it applies to. </p>
+<p class="intro"><span class="dropcap">A</span>s with any good experiment, I've tried AIHawk several different times to see differences and adjust parameters to narrow the positions it applies to. </p>
 
 If you haven't seen my original post on AIHawk, including a walk through installation and modifying files with all my 🤠**Tidbits**🤠 and 🐄**Hold Ups**🐄, find it [HERE](https://kelsiwest-binf.github.io/recapitulate_this/2024/09/16/How-Well-Will-LinkedIn-AIHawk-Work.html). 
 
-<br />
 
 ---
 #### LinkedIn AIHawk
@@ -18,6 +17,7 @@ If you haven't seen my original post on AIHawk, including a walk through install
 Find it here: [LinkedIn AIHawk](https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI?tab=readme-ov-file)
 
 ---
+<br />
 
 #### Anything marked with 🐄Hold Up🐄  is where I had issues or went a little bit off the path of instructions.
 #### Anything marked with 🤠Tidbits🤠 is helpful info I found out along the way.
@@ -95,8 +95,6 @@ From this, you can click on the "Submitted Resume" and it will download the resu
 <br />
 
 ### Big Reveal
-![image info](/assets/images/aihawk_resume.png)
-
 <figure>
 	<img src="/assets/images/aihawk_resume.png" alt=""> 
 	<figcaption> AI Generated Resume from AIHawk </figcaption>
@@ -104,7 +102,7 @@ From this, you can click on the "Submitted Resume" and it will download the resu
 
 <figure>
 	<img src="/assets/images/disappointed-sigh.gif" alt=""> 
-	<figcaption> _insert disappointed trumpet noise here_ </figcaption>
+	<figcaption> Insert disappointed trumpet noise here. </figcaption>
 </figure>
 
 
@@ -140,8 +138,8 @@ titleBlacklist:
 {%- endhighlight -%}
 <br />
 <br />
----
 
+---
 
 # Attempt #3
 For this attempt, I launched AIHawk on a Thursday afternoon. 

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Installing Python On Mac M3 Pro"
+title: "Installing Python 3.12 On Mac M3 Pro"
 date: 2024-09-14
-description: Setting up my new computer with a much needed upgrade.
+description: Setting up my new computer with a (some would say) much needed upgrade.
 ---
 
-<p class="intro"><span class="dropcap">HOWDY!</span> I recently purchased a new laptop to help with my education and coding endeavors during my "down time" aka laid off from a tech company. So today, I'm starting the process of installing or updating some of my favorite tools, one of which will be Python (version 3.12).🐍</p>
+<p class="intro"><span class="dropcap">I</span> recently purchased a new laptop to help with my education and coding endeavors during my "down time" aka laid off from a tech company. So today, I'm starting the process of installing or updating some of my favorite tools, one of which will be Python (version 3.12).🐍</p>
 
 We're starting from the *very* beginning here.👩🏼‍🔧 But you have to start somewhere! The goal is to get my personal laptop to have all the tools, pipelines, and repositories like I had on my previous work laptop.
 
