@@ -29,7 +29,7 @@
  
  I deal with simple installations of software to full-on analysis of complex biological datasets. 
 
- ### Let's make everything reproducbile. It starts with clear communication! 
+ ### Let's make everything reproducible. It starts with clear communication! 
 
 ---
 

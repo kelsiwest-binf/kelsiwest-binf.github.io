@@ -10,7 +10,11 @@ title: About Kelsi West
 	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
 	<h2>Features</h2>
 	<ul>
-		<li>Built with the <a href="https://github.com/jekyll/jekyll-sass-converter">Jekyll SASS convertor</a> plugin</li>
+		<li>Howdy! I'm Kelsi West. I'm a DIY enthusiast and that applies to all parts of my life, including my career as a Bioinformatics Scientist.</li>
+        <li>In my field, I find that communication and reproducibility is severely lacking. I want to help change this.</li>
+        <li>So here is where I share my personal attempts of going through tutorials I find, making notes🗒️, fixing errors🤞🏻, and trying to successfully📈 recapitulate code or tutorials that are out there in the wild.</li>
+        <li>I deal with simple installations of software to full-on analysis of complex biological datasets.</li>
+        <li>Let's make everything reproducible. It starts with clear communication!</li>
   		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
   		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
   		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
