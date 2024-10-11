@@ -5,9 +5,7 @@ date:   2024-09-16
 description: Let's try out an AI developed by feder-cr to auto-fill and apply to jobs in LinkedIn!
 ---
 
-### Howdy!
-<br />
-My friend, Alex Jacobs, forwarded me this repo that uses AI to auto-fill and apply to jobs in LinkedIn. 
+<p class="intro"><span class="dropcap">HOWDY!</span> My friend and AI Engineer, Alex Jacobs, forwarded me this repo that uses AI to auto-fill and apply to jobs in LinkedIn. </p>
 
 ---
 #### LinkedIn AIHawk
@@ -21,41 +19,45 @@ What an awesome use of AI!
 We'll be following instructions from the AIHawk README word for word. 
 To avoid redundancy, I've only copied any instructions that I had issues with or commented on.
 
-##### Anything marked with 🐄**Hold Up**🐄  is where I had issues or went a little bit off the path of instructions. 
-
-##### Anything marked with 🤠**Tidbits**🤠 is helpful info I found out along the way.
+#### Anything marked with 🐄Hold Up🐄  is where I had issues or went a little bit off the path of instructions.
+#### Anything marked with 🤠Tidbits🤠 is helpful info I found out along the way.
 
 Let's try to install and submit some job applications with AIHawk!
 
 #### Here goes nothing!
 
-### Installation
+<br />
+<br />
+<br />
+<br />
+<br />
 
-#### 1. **Download and Install Python:**
-   - If you're interested in how I installed Python on my new MAc M3 Pro, check out my other post [HERE](https://kelsiwest-binf.github.io/blog/Installing-Python-On-Mac-M3-Pro/). 
-#### 2. **Download and Install Google Chrome:**
+## Installation
 
-##### 🤠 **Tidbits** 🤠
+### 1. Download and Install Python.
+If you're interested in how I installed Python on my new MAc M3 Pro, check out my other post [HERE](https://kelsiwest-binf.github.io/blog/Installing-Python-On-Mac-M3-Pro/). 
+### 2. Download and Install Google Chrome.
+
+#### 🤠Tidbits🤠
 Do yourself a favor and go ahead and log-in to LinkedIn on Chrome. It will try to do that when you first run the main script anyways. 
 
-#### 3. **Clone the repository:**
+### 3. Clone the repository.
 Open your terminal and run:
 {%- highlight ruby -%}
 git clone https://github.com/feder-cr/LinkedIn_AIHawk_automatic_job_application
 cd LinkedIn_AIHawk_automatic_job_application 
 {%- endhighlight -%}
    
-##### 🤠 **Tidbits** 🤠
+#### 🤠Tidbits🤠
 I prefer to use Pycharm IDE Community Edition (Free) when managing my repos locally. I utilized the "Get from VCS" option when 
-creating a new project and utilized AIHawk's github http link to import the entire repo into my local projects. 
-
+creating a new project and utilized AIHawk's github http link to import the entire repo into my local projects.
 But feel free to clone the repo as shown above!
 
-##### 🐄 **Hold Up**🐄
-After pullling the repo from Git, it gave me an error in Pycharm that I didn't have Python veresion >= 3.10.
+#### 🐄Hold Up🐄
+After pulling the repo from Git, it gave me an error in Pycharm that I didn't have Python veresion >= 3.10.
 That's not true, because I just installed 3.12. 
 
-For me, running `python3 --version` printed `Python 3.9.6`.
+For me, running "`python3 --version`" printed "`Python 3.9.6`".
 That's because Mac comes with a default installation of 3.9. So we need to tell Pycharm to use the 3.12 version.
 
 
@@ -76,27 +78,28 @@ We can do that by changing our Python Interpreter in Pycharm.
 
 <img src="/assets/images/pycharm_5.png" alt=""> 
 
-  5. You can run `which python3.12` or `which python3`, to find the location of Python.
+  5. You can run "`which python3.12`" or "`which python3`", to find the location of Python.
 
-  6. Navigate to that location and Add that as the new interpreter. 
+  6. Navigate to that location and add that as the new interpreter. 
 
 
-### Now back to the tutorial 
+## Now back to the tutorial.
 
-#### 4. Activate virtual environment:
+
+### 4. Activate virtual environment.
    
 {%- highlight ruby -%}
 Kelsis-MacBook-Pro ~ % python3 -m venv virtual
 Kelsis-MacBook-Pro ~ % source virtual/bin/activate 
 {%- endhighlight -%}
 
-#### 5. Install the required packages:
+### 5. Install the required packages:
 
 {%- highlight ruby -%}
 Kelsis-MacBook-Pro ~ % pip install -r requirements.txt
 {%- endhighlight -%}
 
-##### 🐄**Hold Up**🐄
+#### 🐄Hold Up🐄
 This didn't work for me since the generic pip goes back to version 3.9 that comes with Mac as default.
 So I updated this line of code to: 
 {%- highlight ruby -%}
@@ -109,15 +112,12 @@ pip3.12 install -r requirements.txt
 
 ---
 <br />
-<br />
-<br />
-<br />
 
-## Configuring/modifying the files provided with AIHawk 
+## Configuring the files provided with AIHawk 
 
 ### 1. secrets.yaml
 
-#### 🤠**Tidbits**🤠
+#### 🤠Tidbits🤠
 Make sure your email and password are correct.
 With some passwords saved, it's always good to confirm before you have to deal with an error message.
 To test this, I just logged out and back in with just using my email (not my saved google email). 
@@ -129,15 +129,14 @@ I have no idea at this point how much this will cost.
 Depending on the number of job titles and locations you use, I imagine it may use more of the OpenAI resources.
 I gave my account $10. And set an alert to email me at $6 to re-up my account if I choose. 
 
-#### I'll update this post on the cost if it's a major hinderence to using AIHawk 
+#### I'll update this post on the cost if it's a major hinderence to using AIHawk. 
 
 
 ### 2. config.yaml
 * `positions:`
   * List job titles you're interested in, one per line
     * Example:
-    * 
-    * {%- highlight ruby -%}
+    {%- highlight ruby -%}
         positions:
         - Software Developer
         - Data Scientist
@@ -166,26 +165,26 @@ positions:
 * `locations:`
   * List locations you want to search in, one per line
   * Example:
-    ```
-    locations:
+{%- highlight ruby -%}
+  locations:
       - Italy
       - London
-    ```
+ {%- endhighlight -%}
     
-#### 🤠**Tidbits**🤠
+#### 🤠Tidbits🤠
 I'm only looking for remote, because there isn't much in my direct area in Texas.
 So I put United States, and Texas as my two locations.
 
 * `companyBlacklist:`
   * List companies you want to exclude from your search, one per line
   * Example:
-    ```
-    companyBlacklist:
+  {%- highlight ruby -%}
+   companyBlacklist:
       - Company X
       - Company Y
-    ```
-    
-#### 🤠**Tidbits**🤠
+ {%- endhighlight -%}
+
+#### 🤠Tidbits🤠
 Probably all the companies you have worked for in the past. Unless you enjoyed them, of course. 
 
 ### 3. plain_text_resume.yaml
@@ -194,8 +193,7 @@ Probably all the companies you have worked for in the past. Unless you enjoyed t
 While this file is very self-explanatory, it is a bit of a hurdle to get through. 
 I recommend using ChatGPT to try to autofill this file as much as possible.
 
-* Copy and paste the plain_text_resume.yaml into ChatGPT. You can tell ChatGPT to stop the response.
-
+* Copy and paste the plain_text_resume.yaml into ChatGPT. You can tell ChatGPT to stop the response. 
 * Then copy and paste your resume text into ChatGPT and ask it to fill out the previous yaml file with this resume.
 
 It won't be perfect and ALWAYS make sure to double-check the answers, but it saved me a lot of time!
@@ -204,10 +202,14 @@ It won't be perfect and ALWAYS make sure to double-check the answers, but it sav
 <br />
 
 ## Let's tip our hats to the `data_folder_example` directory!
+<br />
 
 #### 🤠**Tidbits**🤠
 Kudos to feder-cr and AIHawk for great examples. This folder is gold.
 Examples are what I live by and if you didn't read anything above, these examples are great and should get you mostly there. 
+<br />
+<br />
+---
 
 ## Usage
 
@@ -237,18 +239,25 @@ I simply added those lines back into the yaml, but did not provide a key for the
 
 ![image info](/assets/images/resume_1.png)
 
-#### 🤠**Tidbits**🤠
+#### 🤠Tidbits🤠
 I love that we have options here. I did use a specific resume, since I had one on file.
 I'm not sure how it affects the application process or how well AIHawk works, but I'll try both and find out. 
+<br />
+<br />
 
 ## SUCCESS 
 ![image info](/assets/images/cowboy.gif)
+<br />
 
-###### Kudos to feder-cr and AIHawk for creating this tool and more importantly, having thorough instructions for users to follow along. Getting this up and running within a couple hours is extremely impressive and that is owed to the great documentation and development.
+---
+<br />
+
+Kudos to feder-cr and AIHawk for creating this tool and more importantly, having thorough instructions for users to follow along. Getting this up and running within a couple hours is extremely impressive and that is owed to the great documentation and development.
 Who knows, maybe it'll land me a job!
 I'll update on how accurate it is and what jobs it applied to for me! 
 
 ## Overall Ranking
+<br />
 
 #### 🐂Like reading cattle brands – Understandable, but requires some knowledge.
 

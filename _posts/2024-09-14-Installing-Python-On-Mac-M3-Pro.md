@@ -13,41 +13,44 @@ I'll be following the install via this [LINK](https://www.geeksforgeeks.org/how-
 
 To avoid redundancy, I've only shown my code and copied any instructions that I had issues with or commented on.
 
-Anything marked with 🐄**Hold Up**🐄 is where I had issues or went a little bit off the path of instructions.
+#### Anything marked with 🐄Hold Up🐄 is where I had issues or went a little bit off the path of instructions.
 
-Anything marked with 🤠**Tidbits**🤠 is helpful info I found out along the way.
+#### Anything marked with 🤠Tidbits🤠 is helpful info I found out along the way.
 
 Here goes nothing!
 <br />
 
-### Installing Python on Mac M3 Pro, macOS Sonoma v14.4
+## Installing Python on Mac M3 Pro, macOS Sonoma v14.4
 
-#### 1. Open up terminal:
+### 1. Open up terminal:
 {%- highlight ruby -%}
 Kelsis-MacBook-Pro ~ %
 {%- endhighlight -%}
 
-##### 🤠Tidbits🤠
+#### 🤠Tidbits🤠
 `Kelsis-MacBook-Pro` is the name of my computer. Your name will be different!
 <br />
 <br />
 
-#### 2. Start bash:
-`Kelsis-MacBook-Pro ~ % /bin/bash`
+### 2. Start bash:
+{%- highlight ruby -%}
+Kelsis-MacBook-Pro ~ % /bin/bash
+{%- endhighlight -%}
 
-#### 3. Install Homebrew by running these lines of code:
+
+### 3. Install Homebrew by running these lines of code:
 {%- highlight ruby -%}
 bash-3.2$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
 bash-3.2$ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/kw/.zprofile 
 bash-3.2$ eval "$(/opt/homebrew/bin/brew shellenv)"
 {%- endhighlight -%}
 
-#### 4. Open a new terminal and run these lines of code to add Brew to your profile:
+### 4. Open a new terminal and run these lines of code to add Brew to your profile:
 {%- highlight ruby -%}
 Kelsis-MacBook-Pro ~ % (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/kelsiowest/.zprofile
 {%- endhighlight -%}
 
-##### 🤠Tidbits🤠
+### 🤠Tidbits🤠
 Your username should go where `kelsiowest` is.
 <br />
 <br />
@@ -58,9 +61,8 @@ Kelsis-MacBook-Pro ~ % brew install python
 Kelsis-MacBook-Pro ~ % python3 --version Python 3.9.6
 {%- endhighlight -%}
 
-<br />
 
-#### 5. Use Brew to now install Python 3.12:
+### 5. Use Brew to now install Python 3.12:
 {%- highlight ruby -%}
 Kelsis-MacBook-Pro ~ % brew install python 
 Kelsis-MacBook-Pro ~ % python3 --version 
@@ -68,7 +70,7 @@ Python 3.9.6
 {%- endhighlight -%}
 
 
-##### 🐄Hold Up🐄
+#### 🐄Hold Up🐄
 You will see that when I do `Kelsis-MacBook-Pro ~ % python3 --version`, it gives me `Python 3.9.6`.
 This is because the default version installed on a Mac is Python 3.9.
 But the version we just installed through `brew install` was Python 3.12, as shown in our terminal.
@@ -87,6 +89,6 @@ Overall, I'm surprised how smoothly that went. Probably because I don't have any
 
 ## Overall Ranking
 
-##### 🏞️ Clear as a mountain stream – Mostly clear, but with some depth to navigate.
+### 🏞️ Clear as a mountain stream – Mostly clear, but with some depth to navigate.
 
 
