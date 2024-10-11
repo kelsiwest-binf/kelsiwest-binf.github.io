@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Kelsi West
+title: About Recapitulate THIS!
 ---
 
 <div class="post">
