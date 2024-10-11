@@ -20,12 +20,14 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-    - title: Home
+    - title: Main
       url: /index.html
-    - title: About Me
-      url: https://kelsi-west.webflow.io/#aboutkelsiwest
     - title: Contact Me
       url: https://kelsi-west.webflow.io/#west-contact
+    - title: About Me
+      url: https://kelsi-west.webflow.io/#aboutkelsiwest
+    - title: Wild West Home
+      url: https://kelsi-west.webflow.io/
 
 social:
     github: kelsiwest-binf
