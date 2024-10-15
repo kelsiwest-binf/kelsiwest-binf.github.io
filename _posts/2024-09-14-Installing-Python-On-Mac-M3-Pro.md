@@ -9,12 +9,16 @@ description: Setting up my new computer with a (some would say) much needed upgr
 
 We're starting from the *very* beginning here.👩🏼‍🔧 But you have to start somewhere! The goal is to get my personal laptop to have all the tools, pipelines, and repositories like I had on my previous work laptop.
 
-I'll be following the install via this [LINK](https://www.geeksforgeeks.org/how-to-download-and-install-python-latest-version-on-macos-mac-os-x/).
+---
+### Tutorial Roundup
+The tutorial I'll be following is from GeeksforGeeks. It is written by a contributor, naveenarora. 
+Find the tutorial [HERE](https://www.geeksforgeeks.org/how-to-download-and-install-python-latest-version-on-macos-mac-os-x/).
+<br />
+---
 
 To avoid redundancy, I've only shown my code and copied any instructions that I had issues with or commented on.
 
 #### Anything marked with 🐄Hold Up🐄 is where I had issues or went a little bit off the path of instructions.
-
 #### Anything marked with 🤠Tidbits🤠 is helpful info I found out along the way.
 
 Here goes nothing!
@@ -87,8 +91,22 @@ Because lots of different codebases and Git repositories require different versi
 Overall, I'm surprised how smoothly that went. Probably because I don't have any other junk or dependencies to mess things up yet! All in due time. 🕸️
 <br />
 
+## Final Marks
+
+| Factor                        | Score |
+|-------------------------------|-------|
+| Clarity                       | 4.5   |
+| Organization                  | 5     |
+| Visual Aids                   | 5     |
+| Examples                      | 5     |
+| All Links/Files Provided Work | NA    |
+
+<br />
+
 ## Overall Ranking
 
-### 🏞️ Clear as a mountain stream – Mostly clear, but with some depth to navigate.
+#### 🌵Sharp as a cactus spine – Very clear, easy to understand.   
+<br />
+<br />
 
 

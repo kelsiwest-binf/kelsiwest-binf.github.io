@@ -8,11 +8,13 @@ description: Let's try out an AI developed by feder-cr to auto-fill and apply to
 <p class="intro"><span class="dropcap">M</span>y friend and AI Engineer, Alex Jacobs, forwarded me this repo that uses AI to auto-fill and apply to jobs in LinkedIn. </p>
 
 ---
+### Tutorial Roundup
+
+Today we will be following the README tutorial by Federico (feder-cr) for "Auto Jobs Applier AIHawk".
 #### LinkedIn AIHawk
-
 ##### 🤖🔍 Your AI-powered job search assistant. Automate applications, get personalized recommendations, and land your dream job faster.
-Find it here: [LinkedIn AIHawk](https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI?tab=readme-ov-file)
 
+Find it here: [LinkedIn AIHawk](https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI?tab=readme-ov-file)
 ---
 What an awesome use of AI!
 
@@ -25,10 +27,6 @@ To avoid redundancy, I've only copied any instructions that I had issues with or
 Let's try to install and submit some job applications with AIHawk!
 
 #### Here goes nothing!
-
-<br />
-<br />
-<br />
 <br />
 <br />
 
@@ -65,24 +63,18 @@ We can do that by changing our Python Interpreter in Pycharm.
 <br />
   1. Go to the bottom right side of Pycharm application and click on "Pycharm Interpreter". 
 ![image info](/assets/images/pycharm_2.png)
-
   2. Click Add New Interpreter.
-
 ![image info](/assets/images/pycharm_3.png)
-
-  3. Click Existing. 
-
+  3. Click Existing.
 ![image info](/assets/images/pycharm_4.png)
-
   4. Then locate to the location of Python 3.12 (or any Python version >=3.10).
-
-<img src="/assets/images/pycharm_5.png" alt=""> 
-
+<img src="/assets/images/pycharm_5.png" alt="">
   5. You can run "`which python3.12`" or "`which python3`", to find the location of Python.
-
   6. Navigate to that location and add that as the new interpreter. 
 
 
+<br />
+<br />
 ## Now back to the tutorial.
 
 
@@ -209,6 +201,8 @@ Kudos to feder-cr and AIHawk for great examples. This folder is gold.
 Examples are what I live by and if you didn't read anything above, these examples are great and should get you mostly there. 
 <br />
 <br />
+
+
 ---
 
 ## Usage
@@ -256,9 +250,20 @@ Kudos to feder-cr and AIHawk for creating this tool and more importantly, having
 Who knows, maybe it'll land me a job!
 I'll update on how accurate it is and what jobs it applied to for me! 
 
-## Overall Ranking
+## Final Marks
+
+| Factor                        | Score |
+|-------------------------------|-------|
+| Clarity                       | 3.75  |
+| Organization                  | 4     |
+| Visual Aids                   | 4     |
+| Examples                      | 5     |
+| All Links/Files Provided Work | 5     |
+
 <br />
+
+## Overall Ranking
 
 #### 🐂Like reading cattle brands – Understandable, but requires some knowledge.
 
-
+<br />
